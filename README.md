@@ -44,13 +44,13 @@ cd NoPilot365
 
 **With uv (recommended):**
 ```bash
-uv run m365_admin.py
+uv run nopilot365.py
 ```
 
 **With pip:**
 ```bash
 pip install -r requirements.txt
-python m365_admin.py
+python nopilot365.py
 ```
 
 On first run, a setup wizard will prompt for your Anthropic API key, Client ID, and Tenant ID. These are saved to `~/.m365cli/config.json` — you won't need to enter them again.
